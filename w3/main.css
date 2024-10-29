@@ -1,0 +1,33 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #FAF3E0;
+    color: black;
+}
+
+a {
+    color: blue
+}
+
+a:visited {
+    color: slategrey
+}
+
+
+a:hover,
+a:active {
+    color: purple;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 1px, solid black;
+    font-family: 'Times New Roman', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
