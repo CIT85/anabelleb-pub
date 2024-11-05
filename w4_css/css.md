@@ -5,3 +5,7 @@
 ---
 # Viewport Width and Height
 - relative to the viewport dimensions and adjust with the brower window size
+---
+# Box Model
+- how elements on a web page are structured and how they interact with each other
+- consists of content, padding, border, margin
