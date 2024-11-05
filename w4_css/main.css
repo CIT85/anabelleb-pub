@@ -12,7 +12,10 @@ h1 {
 
 .container {
     border: 2px dashed red;
+    border-top-color: blue;
+    border-right: 10px dotted blue;
     font-size: 1.5rem;
+    margin: 1.5em;
     /* margin-top: 1.5em;
     margin-right: 2em;
     margin-bottom: 2em;
