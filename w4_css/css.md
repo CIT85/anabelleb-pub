@@ -9,3 +9,6 @@
 # Box Model
 - how elements on a web page are structured and how they interact with each other
 - consists of content, padding, border, margin
+# Font-Family Fall Back
+- if our computer doesnt have the fist choice of font it uses the second choice
+- if the font name has no spaces and a dash it doesnt need a quote
