@@ -8,6 +8,47 @@ body {
     color: black;
 }
 
+header {
+    padding: 20px; 
+    border-bottom: 3px solid #444; /* Bottom border for separation */
+    text-align: center;
+    border-radius: 0 0 10px 10px; /* Rounded corners on the bottom */
+    width: 100%; /* Full-width */
+}
+
+header h1 {
+    margin: 10px 0; /* Vertical spacing between elements */
+}
+
+header a {
+    text-decoration: none; /* Remove underline from links */
+    border-bottom: 2px solid transparent; 
+    padding: 3px 5px; 
+    border-radius: 5px;
+}
+
+header a:hover {
+    border-color: #ffcc00; /* Color change on hover */
+}
+
+
+
+article {
+    border: 2px solid #e2e2e2; /* Adds a light border around each article */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling aside section */
+aside {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
 a {
     color: #0570da
 }
@@ -23,9 +64,13 @@ a:active {
 
 }
 
-/* Universal table styling */
-table,
-tr,
+/* Adding styles to tables */
+table {
+    border-collapse: collapse; /* Removes double borders */
+    width: 100%;
+    border: 1px solid #ddd; /* Adds a border around the table */
+}
+
 th,
 td,
 caption {
@@ -79,4 +124,35 @@ th, td, caption {
     border: 3px solid #d1a805; 
     padding: 10px;
     margin: 20px 0; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px; /* Space inside footer */
+    border-top: 3px solid #444; /* Top border for separation */
+    text-align: center; 
+    border-radius: 10px 10px 0 0; /* Rounded corners on top */
+    width: 100%; /* Full-width */
+}
+
+footer p {
+    margin: 10px 0; /* Vertical spacing between elements */
+}
+
+footer a {
+    color: #ffcc00; 
+    text-decoration: none; /* Remove underline from links */
+    border-bottom: 2px solid transparent; 
+    padding: 3px 5px; 
+}
+
+footer a:hover {
+    border-color: #ffcc00; /* Color change on hover */
+}
+
+/* Additional styling for spacing and layout */
+footer p a {
+    display: inline-block;
+    border-radius: 5px; /* Rounded corners for links */
 }
