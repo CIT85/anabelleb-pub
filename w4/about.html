@@ -7,7 +7,7 @@
     <meta name="description" content="Hi, I'm Anabelle Botello. This page is about me.">
     <title>About Me</title>
     <!--<link rel="icon" href="" type="image/x-icon">-->
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="../w4/css/main.css" type="text/css">
 </head>
 
 <body>
@@ -64,11 +64,82 @@
                 elaborated on helps so much.
             </p>
         </article>
+        <article id="questions">
+            <h2>Questionnaire</h2>
+            <p>I'd really like you opinions on mythlogies!</p>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>What Other Mythologies Are You Interested In?</legend>
+                    <p>
+                        <label for="answer">Answer:</label>
+                        <input type="text" name="answer" id="answer" placeholder="Greek" autocomplete="on" required
+                            autofocus>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Which Mythology Was Your Favorite?</legend>
+                    <p>
+                        <input type="checkbox" name="mythology" id="greek" value="greek">
+                        <label for="greek">Greek</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="mythology" id="egyptian" value="egyptian">
+                        <label for="egyptian">Egyptian</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="mythology" id="chinese" value="chinese">
+                        <label for="chinese">Chinese</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="allabove" id="allabove" value="allabove">
+                        <label for="allabove">All of the Above</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Which Mythology Era Do You Prefer?</legend>
+                    <p>
+                        <input type="radio" name="era" id="ancient" value="ancient">
+                        <label for="ancient">Ancient</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="era" id="classical" value="classical">
+                        <label for="classical">Classical</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="era" id="modern" value="modern">
+                        <label for="modern">Modern</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>How Many Mythology Books Have You Read?</legend>
+                    <label for="book-count">Number of Books:</label>
+                    <input type="number" id="book-count" name="book-count" min="0" max="100" step="1">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>What Are Your Thoughts On Mythology?</legend>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10"
+                        placeholder="Please Share Your Thoughts!"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="https://httpsbin.org/post" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
+            </form>
+        </article>
     </main>
     <hr>
     <footer>
         <p>
             &lt;&lt;&lt; &copy; <a href="about.hmtl">Anabelle Botello</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="../w4/css/sitemap.html">Sitemap</a>
         </p>
         <p>
             <a href="#">Back to Top</a>

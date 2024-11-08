@@ -1,0 +1,82 @@
+/* Base font size for the entire HTML document */
+html {
+    font-size: 22px;/* Sets font size to ensure readability across elements */
+}
+
+body {
+    background-color: #fffaeb;
+    color: black;
+}
+
+a {
+    color: #0570da
+}
+
+a:visited {
+    color: #008080;/* Sets link color to a shade of blue */
+}
+
+
+a:hover,
+a:active {
+    color: #d1a805;/* Changes link color to gold when hovered or active */
+
+}
+
+/* Universal table styling */
+table,
+tr,
+th,
+td,
+caption {
+    font-family: 'Times New Roman', Courier, monospace;
+    border-collapse: collapse;/* Removes gaps between table borders */
+    padding: 0.5rem;/* Adds padding within cells for readability */
+}
+
+th, td, caption {
+    border: 3px double rgb(209, 168, 5);/* Applies a gold double border to table elements */
+}
+
+/* Styling specifically for the Greek mythology table */
+.greek-table {
+    color: hsl(210, 96%, 44%);
+    border: 3px double hsl(48, 95%, 42%);
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    /* Specificity: 0,0,1,0 
+    This means that this ruleset overrides inline and id selesctorss as it has a higher specificity. */
+}
+
+/* Styling specifically for the Egyptian mythology table */
+.egyptian-table {
+    color: hsl(180, 100%, 25%);
+    border: 1px double hsl(48, 95%, 42%);
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+/* Styling specifically for the Chinese mythology table */
+.chinese-table {
+    color: rgb(165, 8, 8);
+    border: 1px double hsl(48, 95%, 42%);
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.color-swatch {
+    border: 2px dotted black;
+    width: 70px; /* Sets the width of each swatch box */
+    height: 70px; /* Sets the height of each swatch box */
+    display: inline-block; /* Aligns swatches horizontally */
+    margin: 5px; /* Adds space between swatches */
+}
+
+.box-model-image {
+    border: 3px solid #d1a805; 
+    padding: 10px;
+    margin: 20px 0; 
+}
