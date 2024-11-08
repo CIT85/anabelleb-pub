@@ -44,13 +44,13 @@ nav {
     border-radius: 0 0 10px 10px; /* Rounded corners on the bottom */
 }
 
-nav a {
-    color: #ffcc00; 
+nav a { 
     text-decoration: none; /* Remove underline from links */
     border-bottom: 2px solid transparent; 
-    padding: 3px 5px;
+    padding: 3px 10px;
     display: inline-block;
     border-radius: 5px; /* Rounded corners for links */
+    background-color: #333;
 }
 
 nav a:hover {
